@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200">
+    <title>IoT Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <div class="header">
+            <h1>IoT MCQ</h1>
+            <button id="theme-toggle" class="theme-toggle" title="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </div>
+        <div class="score-display hide">Score: <span id="score">0</span></div>
+
+        <!-- Group Selection Screen -->
+        <div id="group-selection-screen" class="screen active">
+            <div class="mode-selection">
+                <div class="credits">
+                    <p>IoT Multiple Choice Questions</p>
+                    <p>From the professor's exams: Khaled Taher Al-Hussaini</p>
+                    <p>Prepared by: Abdulnasser Jamal AL-Sanabani</p>
+                </div>
+                <h2>Choose Question Group</h2>
+                <div class="group-buttons" id="group-buttons">
+                    <!-- سيتم ملؤها ديناميكياً بواسطة JavaScript -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Mode Selection Screen -->
+        <div id="mode-selection-screen" class="screen">
+            <div class="mode-selection">
+                <h2>Choose Your Mode</h2>
+                <div class="mode-buttons">
+                    <button id="training-mode-btn" class="btn">Training Mode</button>
+                    <button id="test-mode-btn" class="btn">Test Mode</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Test Order Selection Screen -->
+        <div id="test-order-screen" class="screen">
+            <div class="mode-selection">
+                <h2>Choose Test Order</h2>
+                <div class="mode-buttons">
+                    <button id="sequential-btn" class="btn">Sequential</button>
+                    <button id="random-btn" class="btn">Random</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Question Screen -->
+        <div id="question-container" class="screen">
+            <div class="question-container">
+                <div class="question-number">
+                    <span>Question <span id="current-question-num">1</span> of <span id="total-questions">0</span></span>
+                    <span id="progress-percent">0%</span>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+                <div class="question-text" id="question-text"></div>
+                <div class="question-text-ar hide" id="question-text-ar"></div>
+                <div class="options-container" id="options-container"></div>
+                <div class="feedback" id="feedback"></div>
+                <div class="correct-answer-display" id="correct-answer-display"></div>
+                <div class="explanation hide" id="explanation">
+                    <div class="explanation-title">Explanation:</div>
+                    <div id="explanation-text"></div>
+                </div>
+                <div class="explanation-ar hide" id="explanation-ar">
+                    <div class="explanation-ar-title">التوضيح:</div>
+                    <div id="explanation-text-ar"></div>
+                </div>
+                <div class="navigation-buttons">
+                    <button id="prev-btn" class="btn btn-secondary hide">Previous</button>
+                    <button id="skip-btn" class="btn btn-skip">Skip Question</button>
+                    <button id="next-btn" class="btn hide">Next</button>
+                </div>
+                <div class="skip-info hide" id="skip-info"></div>
+                <button id="home-btn" class="btn btn-secondary hide">Back to Home</button>
+            </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="screen">
+            <div class="result-screen">
+                <div class="celebration" id="celebration">🎉</div>
+                <h2>Quiz Complete!</h2>
+                <p>Your final score is:</p>
+                <p class="final-score"><span id="final-score">0</span></p>
+                
+                <div class="time-taken">
+                    <p>Time Taken: <span id="time-taken">0:00</span></p>
+                </div>
+                
+                <div class="stats-container">
+                    <div class="stat-box">
+                        <div class="stat-value" id="correct-answers">0</div>
+                        <div class="stat-label">Correct Answers</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value" id="incorrect-answers">0</div>
+                        <div class="stat-label">Incorrect Answers</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value" id="skipped-answers">0</div>
+                        <div class="stat-label">Skipped Questions</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value" id="percentage">0%</div>
+                        <div class="stat-label">Success Rate</div>
+                    </div>
+                </div>
+                
+                <button id="restart-btn" class="btn">Back to Menu</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- سيتم تحميل ملفات الأسئلة ديناميكياً -->
+    <script src="script.js"></script>
+</body>
+</html>
