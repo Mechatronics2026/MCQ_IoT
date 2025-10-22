@@ -9,9 +9,9 @@ var quizData = [
             { text_en: "X-GSN", text_ar: "X-GSN" }, 
             { text_en: "GSN", text_ar: "GSN" }
         ], 
-        correctAnswer: "B",
-        explanation_en: "Open IoT uses HTTP for managing sensor registration and deployment.",
-        explanation_ar: "تستخدم Open IoT بروتوكول HTTP لإدارة تسجيل أجهزة الاستشعار ونشرها."
+        correctAnswer: "C",
+        explanation_en: "Open IoT uses X-GSN for managing sensor registration and deployment.",
+        explanation_ar: "تستخدم Open IoT بروتوكول X-GSN لإدارة تسجيل أجهزة الاستشعار ونشرها."
     },
     { 
         question_en: "MQTT stands for ______", 
@@ -139,9 +139,9 @@ var quizData = [
             { text_en: "services", text_ar: "الخدمات" }, 
             { text_en: "systems", text_ar: "الأنظمة" }
         ], 
-        correctAnswer: "C",
-        explanation_en: "APIs enable service portability across different platforms.",
-        explanation_ar: "تمكن واجهات برمجة التطبيقات إمكانية نقل الخدمات عبر منصات مختلفة."
+        correctAnswer: "D",
+        explanation_en: "APIs enable systems portability across different platforms.",
+        explanation_ar: "تمكن واجهات برمجة التطبيقات إمكانية نقل الأنظمة عبر منصات مختلفة."
     },
     { 
         question_en: "ITS stands for ______", 
