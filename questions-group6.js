@@ -178,9 +178,9 @@ var quizData = [
             { text_en: "5", text_ar: "5" }, 
             { text_en: "2", text_ar: "2" }
         ], 
-        correctAnswer: "B",
-        explanation_en: "IoT platforms are generally divided into 3 types: Consumer, Enterprise, and Industrial.",
-        explanation_ar: "تنقسم منصات إنترنت الأشياء بشكل عام إلى 3 أنواع: الاستهلاكية، المؤسسية، والصناعية."
+        correctAnswer: "A",
+        explanation_en: "IoT platforms are generally divided into 4 types:",
+        explanation_ar: "تنقسم منصات إنترنت الأشياء بشكل عام إلى 4 أنواع: ."
     },
     { 
         question_en: "Total types of capacitive touch sensors are", 
@@ -204,9 +204,9 @@ var quizData = [
             { text_en: "3", text_ar: "3" }, 
             { text_en: "4", text_ar: "4" }
         ], 
-        correctAnswer: "B",
-        explanation_en: "Voice communication in IoT can be classified into two types: unidirectional and bidirectional.",
-        explanation_ar: "يمكن تصنيف الاتصال الصوتي في إنترنت الأشياء إلى نوعين: أحادي الاتجاه وثنائي الاتجاه."
+        correctAnswer: "C",
+        explanation_en: "Voice communication in IoT can be classified into 3 types: unidirectional and bidirectional and ....",
+        explanation_ar: "يمكن تصنيف الاتصال الصوتي في إنترنت الأشياء إلى ثلاثة انواع."
     },
     { 
         question_en: "VNC stands for ______", 
