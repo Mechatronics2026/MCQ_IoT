@@ -1939,9 +1939,9 @@ var quizData = [
             { text_en: "X-GSN", text_ar: "X-GSN" }, 
             { text_en: "GSN", text_ar: "GSN" }
         ], 
-        correctAnswer: "B",
-        explanation_en: "Open IoT uses HTTP for managing sensor registration and deployment.",
-        explanation_ar: "تستخدم Open IoT بروتوكول HTTP لإدارة تسجيل أجهزة الاستشعار ونشرها."
+        correctAnswer: "C",
+        explanation_en: "Open IoT uses X-GSN for managing sensor registration and deployment.",
+        explanation_ar: "تستخدم Open IoT بروتوكول X-GSN لإدارة تسجيل أجهزة الاستشعار ونشرها."
     },
     { 
         question_en: "MQTT stands for ______", 
@@ -2069,9 +2069,9 @@ var quizData = [
             { text_en: "services", text_ar: "الخدمات" }, 
             { text_en: "systems", text_ar: "الأنظمة" }
         ], 
-        correctAnswer: "C",
-        explanation_en: "APIs enable service portability across different platforms.",
-        explanation_ar: "تمكن واجهات برمجة التطبيقات إمكانية نقل الخدمات عبر منصات مختلفة."
+        correctAnswer: "D",
+        explanation_en: "APIs enable systems portability across different platforms.",
+        explanation_ar: "تمكن واجهات برمجة التطبيقات إمكانية نقل الأنظمة عبر منصات مختلفة."
     },
     { 
         question_en: "ITS stands for ______", 
@@ -2108,9 +2108,9 @@ var quizData = [
             { text_en: "5", text_ar: "5" }, 
             { text_en: "2", text_ar: "2" }
         ], 
-        correctAnswer: "B",
-        explanation_en: "IoT platforms are generally divided into 3 types: Consumer, Enterprise, and Industrial.",
-        explanation_ar: "تنقسم منصات إنترنت الأشياء بشكل عام إلى 3 أنواع: الاستهلاكية، المؤسسية، والصناعية."
+        correctAnswer: "A",
+        explanation_en: "IoT platforms are generally divided into 4 types: Consumer, Enterprise, and Industrial and ..؟..",
+        explanation_ar: "،تنقسم منصات إنترنت الأشياء بشكل عام إلى 4 أنواع: الاستهلاكية، المؤسسية، والصناعية."
     },
     { 
         question_en: "Total types of capacitive touch sensors are", 
@@ -2134,9 +2134,9 @@ var quizData = [
             { text_en: "3", text_ar: "3" }, 
             { text_en: "4", text_ar: "4" }
         ], 
-        correctAnswer: "B",
-        explanation_en: "Voice communication in IoT can be classified into two types: unidirectional and bidirectional.",
-        explanation_ar: "يمكن تصنيف الاتصال الصوتي في إنترنت الأشياء إلى نوعين: أحادي الاتجاه وثنائي الاتجاه."
+        correctAnswer: "C",
+        explanation_en: "Voice communication in IoT can be classified into 3 types: unidirectional and bidirectional and ....",
+        explanation_ar: "يمكن تصنيف الاتصال الصوتي في إنترنت الأشياء إلى ثلاثة انواع : ..؟..وأحادي الاتجاه وثنائي الاتجاه."
     },
     { 
         question_en: "VNC stands for ______", 
